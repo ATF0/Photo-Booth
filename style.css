@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+
+nav {
+    height: 30px;
+    line-height: 40px;
+}
+
+nav h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+nav h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+    font-size: 45px;
+}
+
+
+#lead-banner img{
+    width: 100%;
+    opacity: 0.97;
+}
+
+#lead-banner{
+    max-height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-overlay{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+}
+
+.banner-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 72px;
+}
+
+blockquote {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+
+.card{
+    max-width: 400px;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+.page-footer{
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
